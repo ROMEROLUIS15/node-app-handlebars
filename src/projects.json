@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "name": "Weather app",
+        "stack": "React",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "name": "Ecommerce",
+        "stack": "JS, HTML, CSS",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "name": "Verification-api",
+        "stack": "Node.js",
+        "image": ""
+    }
+    
+]
