@@ -19,6 +19,7 @@ router.get('/myportafolio', (req,res) => {
 router.get('/projects', (req,res) => {
     // res.render('my-projects')
     console.log(projects)
+
     res.render('projects-list', {projects})
 })
 
@@ -31,7 +32,9 @@ router.get('/projects', (req,res) => {
 //usando esta ruta haciendole handlebars
 router.get('/projects/:id', (req,res) => {
     const { id } = req.params
-    res.render('show-projects' , {id})
+    //importante colocar el parseInt ya que el id viene como string
+    const project = projects.find(project =>  project.id === parseInt(id)); 
+    res.render('show-projects' , {id , project})
 })
 
 

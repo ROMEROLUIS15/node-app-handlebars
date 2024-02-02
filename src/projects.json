@@ -3,19 +3,19 @@
         "id": 1,
         "name": "Weather app",
         "stack": "React",
-        "image": ""
+        "image": "https://weather-app-pi-seven-46.vercel.app/"
     },
     {
         "id": 2,
         "name": "Ecommerce",
         "stack": "JS, HTML, CSS",
-        "image": ""
+        "image": "https://https-github-com-romeroluis-15-proyecto-carrito.vercel.app/"
     },
     {
         "id": 3,
         "name": "Verification-api",
         "stack": "Node.js",
-        "image": ""
+        "image": "https://ecommerce-backend-node.onrender.com/"
     }
     
 ]
